@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
       duration: '4 Weeks',
       modulesCount: '4 Core Modules',
       originalPrice: '₹1,999',
-      currentPrice: '₹999',
+      currentPrice: '₹699',
       benefits: ['Guaranteed placement workshops', 'Mock interview simulations', 'Resume & portfolio critique'],
       skills: ['Public Speaking', 'Business Writing', 'Resume Crafting', 'Mock Interviews', 'Negotiation'],
       modules: [
@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', () => {
       duration: '6 Weeks',
       modulesCount: '5 Core Modules',
       originalPrice: '₹2,499',
-      currentPrice: '₹1,119',
+      currentPrice: '₹799',
       benefits: ['Hands-on AI agent tools setup', 'Pitch deck creation to founders', 'Live hackathon hack-days'],
       skills: ['Generative AI', 'Product Management', 'Startup Pitching', 'Rapid Prototyping', 'Design Thinking'],
       modules: [
@@ -111,7 +111,7 @@ document.addEventListener('DOMContentLoaded', () => {
       duration: '5 Weeks',
       modulesCount: '4 Core Modules',
       originalPrice: '₹2,799',
-      currentPrice: '₹1,399',
+      currentPrice: '₹899',
       benefits: ['Direct referrals to hiring partners', 'Global networking blueprints', 'SaaS marketing simulation project'],
       skills: ['Digital Marketing', 'Cold Outreach', 'Client Relations', 'Growth Hacking', 'Project Management'],
       modules: [
@@ -127,7 +127,7 @@ document.addEventListener('DOMContentLoaded', () => {
       duration: '8 Weeks',
       modulesCount: '6 Core Modules',
       originalPrice: '₹2,999',
-      currentPrice: '₹1,449',
+      currentPrice: '₹999',
       benefits: ['Hands-on system design sketches', 'Practice SQL on real datasets', 'Comprehensive foundation certificates'],
       skills: ['Operating Systems', 'Database Systems', 'SQL Querying', 'Object-Oriented Programming', 'System Design'],
       modules: [
