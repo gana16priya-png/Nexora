@@ -1,0 +1,1382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nexora - Future Launchpad. Premium cohort learning startup for career preparation, communication mastery, GenAI applications, and computer foundations.">
+  <title>Nexora - Future Launchpad | Premium Cohort & Future Skills</title>
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Swiper.js CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+  
+  <!-- AOS CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Preloader Screen -->
+  <div class="preloader">
+    <div class="loader-spinner"></div>
+    <span style="font-family: 'Sora', sans-serif; font-weight: 700; color: #FF6B35; letter-spacing: 0.1em;">NEXORA</span>
+  </div>
+
+  <!-- Header / Navigation Bar -->
+  <header class="site-header">
+    <div class="container">
+      <div class="nav-wrapper">
+        <a href="#" class="logo" id="header-logo">
+          <svg class="logo-icon" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="100" height="100" rx="24" fill="#FF6B35"/>
+            <path d="M30 70L50 30L70 70H60L50 50L40 70H30Z" fill="white"/>
+            <path d="M50 38L62 62H38L50 38Z" fill="#FFC857"/>
+          </svg>
+          <span>NEXORA</span>
+        </a>
+        
+        <nav class="nav-menu">
+          <a href="#about" class="nav-link">About</a>
+          <a href="#features" class="nav-link">Why Nexora</a>
+          <a href="#paths" class="nav-link">Paths</a>
+          <a href="#journey" class="nav-link">Journey</a>
+          <a href="#courses" class="nav-link">Courses</a>
+          <a href="#mentors" class="nav-link">Mentors</a>
+          <a href="#testimonials" class="nav-link">Reviews</a>
+          <a href="#pricing" class="nav-link">Pricing</a>
+        </nav>
+        
+        <div class="nav-cta">
+          <a href="#contact" class="btn btn-secondary">Talk to Advisor</a>
+          <a href="#pricing" class="btn btn-primary">Start Learning</a>
+        </div>
+        
+        <div class="mobile-toggle">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Sidebar Navigation -->
+  <div class="mobile-nav">
+    <a href="#about" class="nav-link">About</a>
+    <a href="#features" class="nav-link">Why Nexora</a>
+    <a href="#paths" class="nav-link">Paths</a>
+    <a href="#journey" class="nav-link">Journey</a>
+    <a href="#courses" class="nav-link">Courses</a>
+    <a href="#mentors" class="nav-link">Mentors</a>
+    <a href="#testimonials" class="nav-link">Reviews</a>
+    <a href="#pricing" class="nav-link">Pricing</a>
+    <div class="mobile-nav-cta">
+      <a href="#contact" class="btn btn-secondary">Talk to Advisor</a>
+      <a href="#pricing" class="btn btn-primary">Start Learning</a>
+    </div>
+  </div>
+  <div class="overlay"></div>
+
+  <!-- STORYTELLING BLOCK WRAPPER -->
+  <div class="storytelling-wrapper">
+    
+    <!-- SVG FLIGHT PATH OVERLAY -->
+    <svg class="flight-svg-overlay" viewBox="0 0 1200 2800" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <!-- Cylindrical metallic body gradient -->
+        <linearGradient id="metallicBody" x1="0%" y1="0%" x2="0%" y2="100%">
+          <stop offset="0%" stop-color="#EAE5E0"/>
+          <stop offset="25%" stop-color="#FFFFFF"/>
+          <stop offset="60%" stop-color="#CDD1D3"/>
+          <stop offset="85%" stop-color="#9EA1A3"/>
+          <stop offset="100%" stop-color="#7C7E80"/>
+        </linearGradient>
+
+        <!-- Nose cone orange gradient -->
+        <linearGradient id="noseConeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stop-color="#FF9F1C"/>
+          <stop offset="100%" stop-color="#FF6B35"/>
+        </linearGradient>
+
+        <!-- Nozzle dark metallic gradient -->
+        <linearGradient id="nozzleGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+          <stop offset="0%" stop-color="#444"/>
+          <stop offset="50%" stop-color="#222"/>
+          <stop offset="100%" stop-color="#111"/>
+        </linearGradient>
+
+        <!-- Fin orange gradient -->
+        <linearGradient id="finGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#FF6B35"/>
+          <stop offset="50%" stop-color="#E85A28"/>
+          <stop offset="100%" stop-color="#C13800"/>
+        </linearGradient>
+
+        <!-- Window blue gloss gradient -->
+        <linearGradient id="windowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#00F2FE"/>
+          <stop offset="50%" stop-color="#00C6FF"/>
+          <stop offset="100%" stop-color="#0072FF"/>
+        </linearGradient>
+
+        <!-- Flame Gradients -->
+        <linearGradient id="flameOuterGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stop-color="#FF6B35" stop-opacity="0.9"/>
+          <stop offset="60%" stop-color="#FFC857" stop-opacity="0.7"/>
+          <stop offset="100%" stop-color="#FF6B35" stop-opacity="0"/>
+        </linearGradient>
+        
+        <linearGradient id="flameInnerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.95"/>
+          <stop offset="50%" stop-color="#FFC857" stop-opacity="0.8"/>
+          <stop offset="100%" stop-color="#FF6B35" stop-opacity="0"/>
+        </linearGradient>
+
+        <!-- Glowing Trail Gradient -->
+        <linearGradient id="trail-glow" x1="0%" y1="0%" x2="0%" y2="100%">
+          <stop offset="0%" stop-color="#FF6B35" stop-opacity="0.9"/>
+          <stop offset="50%" stop-color="#FFC857" stop-opacity="0.9"/>
+          <stop offset="100%" stop-color="#2FBF71" stop-opacity="0.9"/>
+        </linearGradient>
+
+        <!-- Rocket Soft Shadow/Glow filter -->
+        <filter id="rocket-glow" x="-50%" y="-50%" width="200%" height="200%">
+          <feGaussianBlur stdDeviation="6" result="blur" />
+          <feColorMatrix type="matrix" values="0 0 0 0 1   0 0 0 0 0.42   0 0 0 0 0.21  0 0 0 0.4 0" />
+          <feMerge>
+            <feMergeNode />
+            <feMergeNode in="SourceGraphic" />
+          </feMerge>
+        </filter>
+      </defs>
+      
+      <!-- Clean, straight vertical flight path down center (x=600), starting below Journey header at y=1150 -->
+      <path id="flight-path" 
+            d="M 900,450 C 900,850 600,1000 600,1150 L 600,2700" 
+            stroke="rgba(255, 107, 53, 0.15)" stroke-width="4" stroke-dasharray="8 8" fill="none" />
+      
+      <!-- Glowing active trail drawn behind the rocket -->
+      <path id="glowing-trail" 
+            d="M 900,450 C 900,850 600,1000 600,1150 L 600,2700" 
+            stroke="url(#trail-glow)" stroke-width="4" fill="none" stroke-dasharray="10000" stroke-dashoffset="10000" />
+      
+      <!-- Milestone Nodes coordinates plotted exactly on the center flight-path (x=600) with 280px steps -->
+      <!-- Milestone 1: (600, 1200) -->
+      <g class="milestone-node" id="node-1">
+        <circle cx="600" cy="1200" r="30" fill="rgba(255, 255, 255, 0.9)" stroke="#E8E2DC" stroke-width="3" class="node-bg" />
+        <circle cx="600" cy="1200" r="30" fill="rgba(255,107,53,0.1)" class="node-ripple" />
+        <circle cx="600" cy="1200" r="12" fill="#FF6B35" class="node-core" />
+        <text x="600" y="1200" fill="white" font-size="11" font-family="'Sora', sans-serif" font-weight="bold" text-anchor="middle" dominant-baseline="central">1</text>
+      </g>
+      
+      <!-- Milestone 2: (600, 1480) -->
+      <g class="milestone-node" id="node-2">
+        <circle cx="600" cy="1480" r="30" fill="rgba(255, 255, 255, 0.9)" stroke="#E8E2DC" stroke-width="3" class="node-bg" />
+        <circle cx="600" cy="1480" r="30" fill="rgba(255,107,53,0.1)" class="node-ripple" />
+        <circle cx="600" cy="1480" r="12" fill="#FFC857" class="node-core" />
+        <text x="600" y="1480" fill="white" font-size="11" font-family="'Sora', sans-serif" font-weight="bold" text-anchor="middle" dominant-baseline="central">2</text>
+      </g>
+      
+      <!-- Milestone 3: (600, 1760) -->
+      <g class="milestone-node" id="node-3">
+        <circle cx="600" cy="1760" r="30" fill="rgba(255, 255, 255, 0.9)" stroke="#E8E2DC" stroke-width="3" class="node-bg" />
+        <circle cx="600" cy="1760" r="30" fill="rgba(255,107,53,0.1)" class="node-ripple" />
+        <circle cx="600" cy="1760" r="12" fill="#FF6B35" class="node-core" />
+        <text x="600" y="1760" fill="white" font-size="11" font-family="'Sora', sans-serif" font-weight="bold" text-anchor="middle" dominant-baseline="central">3</text>
+      </g>
+      
+      <!-- Milestone 4: (600, 2040) -->
+      <g class="milestone-node" id="node-4">
+        <circle cx="600" cy="2040" r="30" fill="rgba(255, 255, 255, 0.9)" stroke="#E8E2DC" stroke-width="3" class="node-bg" />
+        <circle cx="600" cy="2040" r="30" fill="rgba(255,107,53,0.1)" class="node-ripple" />
+        <circle cx="600" cy="2040" r="12" fill="#FFC857" class="node-core" />
+        <text x="600" y="2040" fill="white" font-size="11" font-family="'Sora', sans-serif" font-weight="bold" text-anchor="middle" dominant-baseline="central">4</text>
+      </g>
+      
+      <!-- Milestone 5: (600, 2320) -->
+      <g class="milestone-node" id="node-5">
+        <circle cx="600" cy="2320" r="30" fill="rgba(255, 255, 255, 0.9)" stroke="#E8E2DC" stroke-width="3" class="node-bg" />
+        <circle cx="600" cy="2320" r="30" fill="rgba(255,107,53,0.1)" class="node-ripple" />
+        <circle cx="600" cy="2320" r="12" fill="#2FBF71" class="node-core" />
+        <text x="600" y="2320" fill="white" font-size="11" font-family="'Sora', sans-serif" font-weight="bold" text-anchor="middle" dominant-baseline="central">5</text>
+      </g>
+      
+      <!-- Milestone 6: (600, 2600) -->
+      <g class="milestone-node" id="node-6">
+        <circle cx="600" cy="2600" r="30" fill="rgba(255, 255, 255, 0.9)" stroke="#E8E2DC" stroke-width="3" class="node-bg" />
+        <circle cx="600" cy="2600" r="30" fill="rgba(255,107,53,0.1)" class="node-ripple" />
+        <circle cx="600" cy="2600" r="12" fill="#2FBF71" class="node-core" />
+        <text x="600" y="2600" fill="white" font-size="11" font-family="'Sora', sans-serif" font-weight="bold" text-anchor="middle" dominant-baseline="central">6</text>
+      </g>
+
+      <!-- STORYTELLING ROCKET CHARACTER GROUP - Premium 3D-Style Metallic Mascot -->
+      <g id="story-rocket" style="transform-origin: 0px 0px;">
+        <g id="rocket-inner-body" style="transform-origin: 0px 0px;">
+          <!-- 3D drop shadow -->
+          <ellipse cx="-15" cy="5" rx="35" ry="12" fill="rgba(0,0,0,0.15)" filter="url(#rocket-glow)"/>
+          
+          <!-- Outer and Inner Wings/Fins (3D Metallic orange) -->
+          <!-- Top Wing -->
+          <path d="M -30 -10 L -48 -26 Q -35 -20 -15 -10 Z" fill="url(#finGrad)" stroke="#B5AF9E" stroke-width="0.5"/>
+          <!-- Bottom Wing -->
+          <path d="M -30 10 L -48 26 Q -35 20 -15 10 Z" fill="url(#finGrad)" stroke="#B5AF9E" stroke-width="0.5"/>
+          <!-- Back center wing shadow -->
+          <path d="M -35 -5 L -52 0 L -35 5 Z" fill="rgba(0,0,0,0.2)"/>
+          
+          <!-- Flame Container for scaling (Wiggle runs inside) -->
+          <g id="rocket-flame-container" style="transform-origin: -15px 0px;">
+            <!-- Thruster flames -->
+            <path id="rocket-flame-outer" d="M -15 -9 L -52 0 L -15 9 Z" fill="url(#flameOuterGrad)" opacity="0.85"/>
+            <path id="rocket-flame-inner" d="M -15 -4 L -32 0 L -15 4 Z" fill="url(#flameInnerGrad)"/>
+          </g>
+
+          <!-- Thruster Nozzle (Metallic Dark Steel) -->
+          <path d="M -16 -6 L -10 -6 L -10 6 L -16 6 Z" fill="url(#nozzleGrad)" stroke="#111" stroke-width="0.5"/>
+          
+          <!-- Main Body Cylinder (3D Chrome/Steel cylindrical reflection gradient) -->
+          <path d="M -32 -13 C -32 -13 0 -13 14 -13 C 25 -13 36 -6 42 0 C 36 6 25 13 14 13 C 0 13 -32 13 -32 13 Z" fill="url(#metallicBody)" stroke="#999" stroke-width="0.5"/>
+          
+          <!-- Nose Cone overlay (Orange 3D gradient) -->
+          <path d="M 14 -13 C 25 -13 36 -6 42 0 C 36 6 25 13 14 13 Z" fill="url(#noseConeGrad)"/>
+          
+          <!-- Cockpit Window Glass (3D Spherical Cyan reflection) -->
+          <circle cx="8" cy="0" r="7.5" fill="url(#windowGrad)" stroke="#333" stroke-width="0.5"/>
+          <!-- Glass highlight -->
+          <path d="M 4 -3 A 5 5 0 0 1 12 -3" stroke="#FFFFFF" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.9"/>
+          
+          <!-- Rivets/Bolts for metallic realism -->
+          <circle cx="-25" cy="-8" r="0.8" fill="#FFF" opacity="0.7"/>
+          <circle cx="-15" cy="-8" r="0.8" fill="#FFF" opacity="0.7"/>
+          <circle cx="-5" cy="-8" r="0.8" fill="#FFF" opacity="0.7"/>
+          <circle cx="5" cy="-8" r="0.8" fill="#FFF" opacity="0.7"/>
+          <circle cx="-25" cy="8" r="0.8" fill="#000" opacity="0.3"/>
+          <circle cx="-15" cy="8" r="0.8" fill="#000" opacity="0.3"/>
+          <circle cx="-5" cy="8" r="0.8" fill="#000" opacity="0.3"/>
+          <circle cx="5" cy="8" r="0.8" fill="#000" opacity="0.3"/>
+        </g>
+      </g>
+    </svg>
+
+    <!-- Particle Smoke/Sparks container -->
+    <div class="particle-container" id="particle-container"></div>
+
+    <!-- 1. Hero Section -->
+    <section class="hero" id="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <div class="badge badge-green" data-aos="fade-down">
+              <i class="fa-solid fa-sparkles"></i> 2026 Admissions Open
+            </div>
+            <h1 id="hero-headline">Launch Your Future with <span class="gradient-text">Nexora</span></h1>
+            <p id="hero-subheading">Master real-world skills, build confidence, gain industry experience, and become career-ready through project-first cohort training.</p>
+            <div class="hero-actions">
+              <a href="#pricing" class="btn btn-primary">Start Learning <i class="fa-solid fa-arrow-right"></i></a>
+              <a href="#paths" class="btn btn-secondary">Explore Courses</a>
+            </div>
+            <div class="trusted-badge-group">
+              <div class="learner-avatars">
+                <svg width="40" height="40" viewBox="0 0 100 100" style="border-radius:50%; margin-left:0;">
+                  <circle cx="50" cy="50" r="50" fill="#FF6B35"/>
+                  <circle cx="50" cy="40" r="20" fill="#FFF8F2"/>
+                  <path d="M20 80C20 65 35 60 50 60C65 60 80 65 80 80H20Z" fill="#FFF8F2"/>
+                </svg>
+                <svg width="40" height="40" viewBox="0 0 100 100" style="border-radius:50%; margin-left:-15px;">
+                  <circle cx="50" cy="50" r="50" fill="#FFC857"/>
+                  <circle cx="50" cy="40" r="20" fill="#222"/>
+                  <path d="M20 80C20 65 35 60 50 60C65 60 80 65 80 80H20Z" fill="#222"/>
+                </svg>
+                <svg width="40" height="40" viewBox="0 0 100 100" style="border-radius:50%; margin-left:-15px;">
+                  <circle cx="50" cy="50" r="50" fill="#2FBF71"/>
+                  <circle cx="50" cy="40" r="20" fill="#FFF8F2"/>
+                  <path d="M20 80C20 65 35 60 50 60C65 60 80 65 80 80H20Z" fill="#FFF8F2"/>
+                </svg>
+              </div>
+              <div class="trusted-text">
+                <div><i class="fa-solid fa-star"></i> 4.9/5 Student Rating</div>
+                <div style="font-size:0.75rem; color:#888; font-weight:normal;">Trusted by 500+ professionals</div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="hero-visual">
+            <div class="hero-blob"></div>
+            <!-- Floating Widgets - Spaced out and positioned strictly on the sides to avoid the rocket's path -->
+            <div class="floating-card floating-card-1 glass">
+              <div class="float-icon float-icon-orange">
+                <i class="fa-solid fa-code"></i>
+              </div>
+              <div class="float-text">
+                <h5>Product Prototyping</h5>
+                <p>AI Tools Integrated</p>
+              </div>
+            </div>
+            
+            <div class="floating-card floating-card-2 glass">
+              <div class="float-icon float-icon-green">
+                <i class="fa-solid fa-arrow-up-right-dots"></i>
+              </div>
+              <div class="float-text">
+                <h5>95% Support</h5>
+                <p>Placement Referrals</p>
+              </div>
+            </div>
+
+            <div class="floating-card floating-card-3 glass">
+              <div class="float-icon float-icon-yellow">
+                <i class="fa-solid fa-trophy"></i>
+              </div>
+              <div class="float-text">
+                <h5>National Hackathons</h5>
+                <p>Build real cohorts</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. Student Journey Section -->
+    <section class="journey section-padding" id="journey">
+      <div class="container">
+        <div class="section-header">
+          <div class="badge badge-green">Flight Plan</div>
+          <h2>Your Journey with Nexora</h2>
+          <p>Scroll down to see how the rocket guides you from onboarding to global developer placements.</p>
+        </div>
+        
+        <!-- Mobile Timeline layout fallback (Visible on Mobile only, hidden on Desktop) -->
+        <div class="journey-container">
+          <div class="journey-step">
+            <div class="journey-dot"></div>
+            <div class="journey-card">
+              <div class="journey-icon"><i class="fa-solid fa-door-open"></i></div>
+              <h4>01. Join Nexora</h4>
+              <p>Enroll and get onboarded into your active learning cohort.</p>
+            </div>
+          </div>
+          
+          <div class="journey-step">
+            <div class="journey-dot"></div>
+            <div class="journey-card">
+              <div class="journey-icon"><i class="fa-solid fa-chalkboard-user"></i></div>
+              <h4>02. Interactive Learning</h4>
+              <p>Attend live sessions and solve weekly real-world case studies.</p>
+            </div>
+          </div>
+          
+          <div class="journey-step">
+            <div class="journey-dot"></div>
+            <div class="journey-card">
+              <div class="journey-icon"><i class="fa-solid fa-cubes"></i></div>
+              <h4>03. Build Capstone Projects</h4>
+              <p>Develop production-grade capstone projects for your portfolio.</p>
+            </div>
+          </div>
+          
+          <div class="journey-step">
+            <div class="journey-dot"></div>
+            <div class="journey-card">
+              <div class="journey-icon"><i class="fa-solid fa-fire"></i></div>
+              <h4>04. Monthly Hackathons</h4>
+              <p>Collaborate in rapid ideation build sprints with fellow peers.</p>
+            </div>
+          </div>
+          
+          <div class="journey-step">
+            <div class="journey-dot"></div>
+            <div class="journey-card">
+              <div class="journey-icon"><i class="fa-solid fa-id-badge"></i></div>
+              <h4>05. Fast-track Internships</h4>
+              <p>Secure direct internship referrals to top partnering startups.</p>
+            </div>
+          </div>
+          
+          <div class="journey-step">
+            <div class="journey-dot"></div>
+            <div class="journey-card">
+              <div class="journey-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+              <h4>06. Careers & Placements</h4>
+              <p>Participate in mock panels and land your dream job role.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- DESKTOP INTERACTIVE STORY CARDS - Shortened, medium, professional descriptions -->
+      <!-- Step 1 Card -->
+      <div class="journey-step step-1" id="step-1">
+        <div class="journey-card" id="milestone-card-1">
+          <div class="journey-icon"><i class="fa-solid fa-door-open"></i></div>
+          <h4>01. Join Nexora</h4>
+          <p>Enroll and get onboarded into your active learning cohort.</p>
+        </div>
+      </div>
+      
+      <!-- Step 2 Card -->
+      <div class="journey-step step-2" id="step-2">
+        <div class="journey-card" id="milestone-card-2">
+          <div class="journey-icon"><i class="fa-solid fa-chalkboard-user"></i></div>
+          <h4>02. Interactive Learning</h4>
+          <p>Attend live sessions and solve weekly real-world case studies.</p>
+        </div>
+      </div>
+      
+      <!-- Step 3 Card -->
+      <div class="journey-step step-3" id="step-3">
+        <div class="journey-card" id="milestone-card-3">
+          <div class="journey-icon"><i class="fa-solid fa-cubes"></i></div>
+          <h4>03. Build Capstone Projects</h4>
+          <p>Develop production-grade capstone projects for your portfolio.</p>
+        </div>
+      </div>
+      
+      <!-- Step 4 Card -->
+      <div class="journey-step step-4" id="step-4">
+        <div class="journey-card" id="milestone-card-4">
+          <div class="journey-icon"><i class="fa-solid fa-fire"></i></div>
+          <h4>04. Monthly Hackathons</h4>
+          <p>Collaborate in rapid ideation build sprints with fellow peers.</p>
+        </div>
+      </div>
+      
+      <!-- Step 5 Card -->
+      <div class="journey-step step-5" id="step-5">
+        <div class="journey-card" id="milestone-card-5">
+          <div class="journey-icon"><i class="fa-solid fa-id-badge"></i></div>
+          <h4>05. Fast-track Internships</h4>
+          <p>Secure direct internship referrals to top partnering startups.</p>
+        </div>
+      </div>
+      
+      <!-- Step 6 Card -->
+      <div class="journey-step step-6" id="step-6">
+        <div class="journey-card" id="milestone-card-6">
+          <div class="journey-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+          <h4>06. Careers & Placements</h4>
+          <p>Participate in mock panels and land your dream job role.</p>
+        </div>
+      </div>
+    </section>
+  </div> <!-- end of storytelling wrapper -->
+
+  <!-- Social Proof Counters Section -->
+  <section class="social-proof">
+    <div class="container">
+      <div class="counters-wrapper">
+        <div class="counter-item">
+          <div class="counter-number" data-target="500" data-percent="false">0</div>
+          <div class="counter-label">Students Trained</div>
+        </div>
+        <div class="counter-item">
+          <div class="counter-number" data-target="100" data-percent="false">0</div>
+          <div class="counter-label">Workshops Led</div>
+        </div>
+        <div class="counter-item">
+          <div class="counter-number" data-target="40" data-percent="false">0</div>
+          <div class="counter-label">Industry Experts</div>
+        </div>
+        <div class="counter-item">
+          <div class="counter-number" data-target="95" data-percent="true">0</div>
+          <div class="counter-label">Placement Success</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about section-padding" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual" data-aos="fade-right">
+          <div class="about-graphic-card">
+            <div class="about-badge-absolute badge badge-yellow">
+              <i class="fa-solid fa-lightbulb"></i> Our Philosophy
+            </div>
+            <div class="about-nav-tabs">
+              <button class="about-tab-btn active" data-tab="mission">Mission</button>
+              <button class="about-tab-btn" data-tab="vision">Vision</button>
+              <button class="about-tab-btn" data-tab="timeline">History</button>
+            </div>
+            
+            <!-- Tab Contents -->
+            <div class="about-tab-content active" id="about-mission">
+              <h4 style="margin-bottom:0.75rem;">Build Confidence. Communicate Better. Get Placed.</h4>
+              <p style="color:#666; font-size:0.95rem; margin-bottom:1rem;">Nexora is built to bridge the gap between academic certificates and actual workplace deliverables. We prioritize prompt engineering, real client deliverables, and mock interview dynamics.</p>
+              <ul class="tab-list">
+                <li><i class="fa-solid fa-circle-check"></i> Non-coding foundations</li>
+                <li><i class="fa-solid fa-circle-check"></i> Career essentials mentoring</li>
+                <li><i class="fa-solid fa-circle-check"></i> Communication & speech building</li>
+                <li><i class="fa-solid fa-circle-check"></i> Actionable hackathon runs</li>
+              </ul>
+            </div>
+            
+            <div class="about-tab-content" id="about-vision">
+              <h4 style="margin-bottom:0.75rem;">Empowering Dreams, Building Tomorrow</h4>
+              <p style="color:#666; font-size:0.95rem; margin-bottom:1rem;">We envision a student community that is not just search-engine reliant, but capable of engineering real solutions using modern tools, clear business logic, and professional articulation.</p>
+              <ul class="tab-list">
+                <li><i class="fa-solid fa-circle-check"></i> Industry mentor-led networks</li>
+                <li><i class="fa-solid fa-circle-check"></i> Open-source build cohorts</li>
+                <li><i class="fa-solid fa-circle-check"></i> Product-first pedagogy</li>
+                <li><i class="fa-solid fa-circle-check"></i> Global developer standards</li>
+              </ul>
+            </div>
+            
+            <div class="about-tab-content" id="about-timeline">
+              <div class="timeline-compact">
+                <div class="timeline-compact-item">
+                  <h5>Launchpad Created (2024)</h5>
+                  <p>Inception of cohort mentorships focusing on public speaking.</p>
+                </div>
+                <div class="timeline-compact-item">
+                  <h5>GenAI Alignment (2025)</h5>
+                  <p>Integrated Prompt Engineering and product ideation blocks into core courses.</p>
+                </div>
+                <div class="timeline-compact-item">
+                  <h5>Admissions Scale (2026)</h5>
+                  <p>Expanding pathways with 500+ active learners across 4 core specializations.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="about-content" data-aos="fade-left">
+          <div class="badge badge-green">Future Launchpad</div>
+          <h2>More than just another online course library.</h2>
+          <p class="lead">We believe that learning is an active, collaborative experience, not a passive playlist scrolling habit.</p>
+          <p class="description">Nexora brings together live mental models, practical hackathons, direct corporate networking, and personalized communication coaching under a structured 4-pillar launchpad curriculum. Whether you are learning core software paradigms or establishing your career fundamentals, Nexora guides you step-by-step.</p>
+          <a href="#paths" class="btn btn-primary">Our Learning Paths</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Nexora Features Section -->
+  <section class="features section-padding" id="features">
+    <div class="container">
+      <div class="section-header">
+        <div class="badge badge-green">Features</div>
+        <h2>Designed for Complete Career Transformation</h2>
+        <p>Nexora combines technical excellence with professional workplace preparation so you land premium roles.</p>
+      </div>
+      
+      <div class="features-grid">
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="0">
+          <div class="feature-icon-wrapper">
+            <i class="fa-solid fa-user-tie"></i>
+          </div>
+          <h3>Real Mentors</h3>
+          <p>Get coached live by practitioners from top tech companies. Receive genuine code reviews and networking introductions.</p>
+        </div>
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="feature-icon-wrapper">
+            <i class="fa-solid fa-laptop-code"></i>
+          </div>
+          <h3>Industry Projects</h3>
+          <p>Ditch theoretical tasks. Work on production-grade code repositories, live marketing scripts, and client briefs.</p>
+        </div>
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="feature-icon-wrapper">
+            <i class="fa-solid fa-code-fork"></i>
+          </div>
+          <h3>Hackathons</h3>
+          <p>Form dynamic teams during our monthly rapid-ideation build sessions. Pitch your finished applications directly to founders.</p>
+        </div>
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="0">
+          <div class="feature-icon-wrapper">
+            <i class="fa-solid fa-briefcase"></i>
+          </div>
+          <h3>Internships</h3>
+          <p>Gain eligibility for direct intern referrals to our 30+ partnering organizations upon cohort pathway completion.</p>
+        </div>
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="feature-icon-wrapper">
+            <i class="fa-solid fa-brain"></i>
+          </div>
+          <h3>AI Learning</h3>
+          <p>Learn how to formulate parameters, design agents, write smart prompts, and utilize GenAI tools to build software fast.</p>
+        </div>
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="feature-icon-wrapper">
+            <i class="fa-solid fa-compass"></i>
+          </div>
+          <h3>Career Guidance</h3>
+          <p>Schedule 1:1 sessions with placement officers to map out timelines, target roles, and salary benchmarks.</p>
+        </div>
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="0">
+          <div class="feature-icon-wrapper">
+            <i class="fa-solid fa-comments"></i>
+          </div>
+          <h3>Communication Training</h3>
+          <p>Overcome public speaking fears. Practice business presentation styles, corporate etiquette, and group discussions.</p>
+        </div>
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="feature-icon-wrapper">
+            <i class="fa-solid fa-id-card"></i>
+          </div>
+          <h3>Resume Building</h3>
+          <p>Optimize your resume with ATS keyword mapping, professional metrics structure, and portfolio case studies.</p>
+        </div>
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="feature-icon-wrapper">
+            <i class="fa-solid fa-users-viewfinder"></i>
+          </div>
+          <h3>Interview Preparation</h3>
+          <p>Participate in realistic mock technical and HR rounds, with video reviews and constructive feedback rubrics.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Learning Paths Section -->
+  <section class="paths section-padding" id="paths">
+    <div class="container">
+      <div class="section-header">
+        <div class="badge badge-yellow">Learning Paths</div>
+        <h2>Find Your Pathway to Success</h2>
+        <p>Click on any of our 4 specialized launchpad tracks below to view modules, skills gained, and syllabus layout.</p>
+      </div>
+      
+      <div class="paths-grid">
+        <div class="path-card" data-path-id="path-1" data-aos="fade-up">
+          <div class="path-header">
+            <div class="path-num">01</div>
+            <h3>Career & Communication Mastery</h3>
+            <p class="path-desc">Conquer mock interview rounds, corporate email styling, dynamic presentation strategies, and public speaking barriers.</p>
+          </div>
+          <div class="path-meta">
+            <div class="path-meta-item"><i class="fa-regular fa-clock"></i> 4 Weeks</div>
+            <div class="path-meta-item"><i class="fa-regular fa-folder-open"></i> 4 Modules</div>
+            <div class="path-meta-item"><i class="fa-regular fa-star"></i> Placement Ready</div>
+          </div>
+          <span class="path-cta-link">Explore Pathway <i class="fa-solid fa-arrow-right"></i></span>
+        </div>
+        
+        <div class="path-card" data-path-id="path-2" data-aos="fade-up" data-aos-delay="100">
+          <div class="path-header">
+            <div class="path-num">02</div>
+            <h3>Innovation & Future Skills</h3>
+            <p class="path-desc">Deep dive into Generative AI tools, prompt engineering, startup ideation, wireframe rapid prototyping, and live hackathons.</p>
+          </div>
+          <div class="path-meta">
+            <div class="path-meta-item"><i class="fa-regular fa-clock"></i> 6 Weeks</div>
+            <div class="path-meta-item"><i class="fa-regular fa-folder-open"></i> 5 Modules</div>
+            <div class="path-meta-item"><i class="fa-regular fa-star"></i> AI & Building</div>
+          </div>
+          <span class="path-cta-link">Explore Pathway <i class="fa-solid fa-arrow-right"></i></span>
+        </div>
+        
+        <div class="path-card" data-path-id="path-3" data-aos="fade-up">
+          <div class="path-header">
+            <div class="path-num">03</div>
+            <h3>Career Essentials</h3>
+            <p class="path-desc">Master marketing basics, client consulting frameworks, cold outreach, and securing high-impact internships.</p>
+          </div>
+          <div class="path-meta">
+            <div class="path-meta-item"><i class="fa-regular fa-clock"></i> 5 Weeks</div>
+            <div class="path-meta-item"><i class="fa-regular fa-folder-open"></i> 4 Modules</div>
+            <div class="path-meta-item"><i class="fa-regular fa-star"></i> Career Toolkit</div>
+          </div>
+          <span class="path-cta-link">Explore Pathway <i class="fa-solid fa-arrow-right"></i></span>
+        </div>
+        
+        <div class="path-card" data-path-id="path-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="path-header">
+            <div class="path-num">04</div>
+            <h3>Core Computer Foundations</h3>
+            <p class="path-desc">Build programming confidence with non-coding CS logic, operating systems (OS), databases (DBMS), and OOP fundamentals.</p>
+          </div>
+          <div class="path-meta">
+            <div class="path-meta-item"><i class="fa-regular fa-clock"></i> 8 Weeks</div>
+            <div class="path-meta-item"><i class="fa-regular fa-folder-open"></i> 6 Modules</div>
+            <div class="path-meta-item"><i class="fa-regular fa-star"></i> CS Core</div>
+          </div>
+          <span class="path-cta-link">Explore Pathway <i class="fa-solid fa-arrow-right"></i></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Courses Section -->
+  <section class="courses section-padding" id="courses">
+    <div class="container">
+      <div class="section-header">
+        <div class="badge badge-yellow">Featured Tracks</div>
+        <h2>Specialized Cohort Offerings</h2>
+        <p>Explore our highly structured, project-focused courses designed to get you hired.</p>
+      </div>
+      
+      <div class="courses-grid">
+        <div class="course-card" data-aos="fade-up">
+          <div class="course-img-wrapper">
+            <svg viewBox="0 0 400 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="400" height="250" fill="#2FBF71" fill-opacity="0.1"/>
+              <circle cx="200" cy="125" r="50" fill="#2FBF71" fill-opacity="0.2"/>
+              <path d="M180 125H220M200 105V145" stroke="#2FBF71" stroke-width="6" stroke-linecap="round"/>
+            </svg>
+            <span class="course-level">All Levels</span>
+          </div>
+          <div class="course-info">
+            <h3>Career & Communication Mastery</h3>
+            <p>Elevate your corporate conversations, group discussion leadership, public speaking, and mock HR rounds.</p>
+            <div class="course-meta">
+              <span><i class="fa-regular fa-clock"></i> 4 Weeks</span>
+              <span><i class="fa-regular fa-user"></i> Cohort Live</span>
+            </div>
+            <div class="course-price-row">
+              <div class="price">₹999<span>INR Only</span></div>
+            </div>
+            <button class="course-enroll-btn" onclick="window.location.href='#pricing'">Enroll Track</button>
+          </div>
+        </div>
+        
+        <div class="course-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="course-img-wrapper">
+            <svg viewBox="0 0 400 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="400" height="250" fill="#FFC857" fill-opacity="0.15"/>
+              <circle cx="200" cy="125" r="55" fill="#FFC857" fill-opacity="0.25"/>
+              <path d="M170 120L190 140L230 100" stroke="#D49D00" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span class="course-level">Intermediate</span>
+          </div>
+          <div class="course-info">
+            <h3>Innovation & Future Skills</h3>
+            <p>Utilize GenAI tools, craft complex prompts, build startup architectures, and execute prototype hackathons.</p>
+            <div class="course-meta">
+              <span><i class="fa-regular fa-clock"></i> 6 Weeks</span>
+              <span><i class="fa-regular fa-user"></i> Build Cohort</span>
+            </div>
+            <div class="course-price-row">
+              <div class="price">₹1,119<span>INR Only</span></div>
+            </div>
+            <button class="course-enroll-btn" onclick="window.location.href='#pricing'">Enroll Track</button>
+          </div>
+        </div>
+        
+        <div class="course-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="course-img-wrapper">
+            <svg viewBox="0 0 400 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="400" height="250" fill="#FF6B35" fill-opacity="0.1"/>
+              <circle cx="200" cy="125" r="50" fill="#FF6B35" fill-opacity="0.2"/>
+              <rect x="180" y="110" width="40" height="30" rx="4" stroke="#FF6B35" stroke-width="4" fill="none"/>
+              <path d="M190 110V100C190 95 210 95 210 100V110" stroke="#FF6B35" stroke-width="4"/>
+            </svg>
+            <span class="course-level">Beginner</span>
+          </div>
+          <div class="course-info">
+            <h3>Career Essentials</h3>
+            <p>Master marketing frameworks, outreach metrics, corporate communication, and secure high-paying internships.</p>
+            <div class="course-meta">
+              <span><i class="fa-regular fa-clock"></i> 5 Weeks</span>
+              <span><i class="fa-regular fa-user"></i> Business Cohort</span>
+            </div>
+            <div class="course-price-row">
+              <div class="price">₹1,399<span>INR Only</span></div>
+            </div>
+            <button class="course-enroll-btn" onclick="window.location.href='#pricing'">Enroll Track</button>
+          </div>
+        </div>
+        
+        <div class="course-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="course-img-wrapper">
+            <svg viewBox="0 0 400 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="400" height="250" fill="#222" fill-opacity="0.05"/>
+              <rect x="150" y="90" width="100" height="60" rx="8" stroke="#222" stroke-width="5" fill="none"/>
+              <path d="M140 160H260" stroke="#222" stroke-width="5" stroke-linecap="round"/>
+            </svg>
+            <span class="course-level">Foundational</span>
+          </div>
+          <div class="course-info">
+            <h3>Core Computer Foundations</h3>
+            <p>Master non-coding core CS, operating system dynamics, normal database structures (DBMS), and OOP logic.</p>
+            <div class="course-meta">
+              <span><i class="fa-regular fa-clock"></i> 8 Weeks</span>
+              <span><i class="fa-regular fa-user"></i> CS Cohort</span>
+            </div>
+            <div class="course-price-row">
+              <div class="price">₹1,449<span>INR Only</span></div>
+            </div>
+            <button class="course-enroll-btn" onclick="window.location.href='#pricing'">Enroll Track</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mentors/Leadership Team Section -->
+  <section class="mentors section-padding" id="mentors">
+    <div class="container">
+      <div class="section-header">
+        <div class="badge badge-green">Leadership Team</div>
+        <h2>Meet Our Leadership Team</h2>
+        <p>Learn directly from the specialists and developers guiding you through your career launchpad.</p>
+      </div>
+      
+      <div class="mentors-grid">
+        <!-- 1. B Yuvaraj -->
+        <div class="mentor-card glass" data-aos="fade-up">
+          <div class="mentor-img-frame">
+            <img src="images/yuvaraj.png" alt="B Yuvaraj" class="mentor-photo">
+          </div>
+          <h4>B Yuvaraj</h4>
+          <span class="mentor-badge-role">AI & Innovation Lead</span>
+          <p class="mentor-card-desc">Mentors students in AI, startups, hackathons, and product development.</p>
+          <div class="mentor-socials">
+            <a href="mailto:yb3171011@gmail.com" class="contact-icon" title="Email: yb3171011@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            <a href="tel:9492182286" class="contact-icon" title="Phone: 9492182286"><i class="fa-solid fa-phone"></i></a>
+            <a href="https://www.linkedin.com/in/yuvaraj-b-92971332b" target="_blank" rel="noopener noreferrer" class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        
+        <!-- 2. V Karthikeya -->
+        <div class="mentor-card glass" data-aos="fade-up" data-aos-delay="100">
+          <div class="mentor-img-frame">
+            <svg viewBox="0 0 100 100" class="mentor-svg-placeholder">
+              <circle cx="50" cy="40" r="22" fill="var(--color-yellow)"/>
+              <path d="M15 85C15 65 30 60 50 60C70 60 85 65 85 85H15Z" fill="var(--color-charcoal)"/>
+            </svg>
+          </div>
+          <h4>V Karthikeya</h4>
+          <span class="mentor-badge-role">Communication & Aptitude Lead</span>
+          <p class="mentor-card-desc">Helps students improve aptitude, reasoning, communication, and confidence.</p>
+          <div class="mentor-socials">
+            <a href="mailto:karthikeyavajjala@gmail.com" class="contact-icon" title="Email: karthikeyavajjala@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            <a href="tel:7989787146" class="contact-icon" title="Phone: 7989787146"><i class="fa-solid fa-phone"></i></a>
+            <a href="https://www.linkedin.com/in/karthikeya-v2412" target="_blank" rel="noopener noreferrer" class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        
+        <!-- 3. Tanushrii S -->
+        <div class="mentor-card glass" data-aos="fade-up" data-aos-delay="200">
+          <div class="mentor-img-frame">
+            <svg viewBox="0 0 100 100" class="mentor-svg-placeholder">
+              <circle cx="50" cy="40" r="22" fill="var(--color-green)"/>
+              <path d="M15 85C15 65 30 60 50 60C70 60 85 65 85 85H15Z" fill="var(--color-charcoal)"/>
+            </svg>
+          </div>
+          <h4>Tanushrii S</h4>
+          <span class="mentor-badge-role">Career & Placement Lead</span>
+          <p class="mentor-card-desc">Guides students in placement readiness, core CS, resume building, and careers.</p>
+          <div class="mentor-socials">
+            <a href="mailto:tanushrii778@gmail.com" class="contact-icon" title="Email: tanushrii778@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            <a href="tel:9008069093" class="contact-icon" title="Phone: 9008069093"><i class="fa-solid fa-phone"></i></a>
+            <a href="https://www.linkedin.com/in/tanushrii-s/" target="_blank" rel="noopener noreferrer" class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        
+        <!-- 4. M Vaishnavi Sai -->
+        <div class="mentor-card glass" data-aos="fade-up" data-aos-delay="300">
+          <div class="mentor-img-frame">
+            <img src="images/vaishnavi.jpg" alt="M Vaishnavi Sai" class="mentor-photo">
+          </div>
+          <h4>M Vaishnavi Sai</h4>
+          <span class="mentor-badge-role">Student Success & Operations Lead</span>
+          <p class="mentor-card-desc">Coordinates program operations, supports student success, and manages community.</p>
+          <div class="mentor-socials">
+            <a href="mailto:vaishnavisai982@gmail.com" class="contact-icon" title="Email: vaishnavisai982@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            <a href="tel:9019946922" class="contact-icon" title="Phone: 9019946922"><i class="fa-solid fa-phone"></i></a>
+            <a href="https://www.linkedin.com/in/vaishnavi-sai-810366369" target="_blank" rel="noopener noreferrer" class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        
+        <!-- 5. Ganapriya N -->
+        <div class="mentor-card glass" data-aos="fade-up" data-aos-delay="400">
+          <div class="mentor-img-frame">
+            <img src="images/ganapriya.png" alt="Ganapriya N" class="mentor-photo">
+          </div>
+          <h4>Ganapriya N</h4>
+          <span class="mentor-badge-role">Technical Lead</span>
+          <p class="mentor-card-desc">Designs UI/UX interfaces and builds engaging, responsive frontend web interactions.</p>
+          <div class="mentor-socials">
+            <a href="mailto:gana16priya@gmail.com" class="contact-icon" title="Email: gana16priya@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            <a href="tel:8904395863" class="contact-icon" title="Phone: 8904395863"><i class="fa-solid fa-phone"></i></a>
+            <a href="https://www.linkedin.com/in/gana-priya-aa5868290" target="_blank" rel="noopener noreferrer" class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        
+        <!-- 6. Naga Sri Charan Peddi -->
+        <div class="mentor-card glass" data-aos="fade-up" data-aos-delay="500">
+          <div class="mentor-img-frame">
+            <img src="images/charan.jpg" alt="Naga Sri Charan Peddi" class="mentor-photo">
+          </div>
+          <h4>Naga Sri Charan Peddi</h4>
+          <span class="mentor-badge-role">Technical Lead</span>
+          <p class="mentor-card-desc">Guides students in web development, full-stack engineering, and real-world projects.</p>
+          <div class="mentor-socials">
+            <a href="mailto:charanpeddi10@gmail.com" class="contact-icon" title="Email: charanpeddi10@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            <a href="tel:8374943648" class="contact-icon" title="Phone: 8374943648"><i class="fa-solid fa-phone"></i></a>
+            <a href="https://www.linkedin.com/in/charan-peddi-441a9536b/" target="_blank" rel="noopener noreferrer" class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials / Success Stories Section (MOVED TO THE END OF THE PAGE) -->
+  <section class="testimonials section-padding" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <div class="badge badge-yellow">What People Say About Us</div>
+        <h2>Real Students. Real Journeys. Real Success.</h2>
+        <p>Over 500 students have transformed their public speaking, AI prototyping capabilities, and computer basics.</p>
+      </div>
+      
+      <div class="swiper-container-wrapper">
+        <div class="swiper testimonials-swiper">
+          <div class="swiper-wrapper">
+            <!-- Slide 1 -->
+            <div class="swiper-slide testimonial-slide">
+              <div class="testimonial-student-visual">
+                <svg width="120" height="120" viewBox="0 0 100 100" style="border-radius:50%; background-color:#FFF8F2; border:4px solid white; box-shadow:0 8px 24px rgba(0,0,0,0.05)">
+                  <circle cx="50" cy="40" r="22" fill="#FF6B35"/>
+                  <path d="M15 85C15 65 30 60 50 60C70 60 85 65 85 85H15Z" fill="#222"/>
+                </svg>
+                <div class="testimonial-rating">
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+              <div class="testimonial-quote-box">
+                <i class="fa-solid fa-quote-left quote-icon"></i>
+                <p class="testimonial-text">"Before Nexora, I was terrified of code interviews. The Core Computer Foundations path broke down complex databases and operating systems into logic I actually understand. Placed within 2 months!"</p>
+                <div class="testimonial-author">
+                  <h4>Karthik S.</h4>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Slide 2 -->
+            <div class="swiper-slide testimonial-slide">
+              <div class="testimonial-student-visual">
+                <svg width="120" height="120" viewBox="0 0 100 100" style="border-radius:50%; background-color:#FFF8F2; border:4px solid white; box-shadow:0 8px 24px rgba(0,0,0,0.05)">
+                  <circle cx="50" cy="40" r="22" fill="#2FBF71"/>
+                  <path d="M15 85C15 65 30 60 50 60C70 60 85 65 85 85H15Z" fill="#FFC857"/>
+                </svg>
+                <div class="testimonial-rating">
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+              <div class="testimonial-quote-box">
+                <i class="fa-solid fa-quote-left quote-icon"></i>
+                <p class="testimonial-text">"The Innovation & Future Skills path was mind-blowing. We didn't just talk about AI - we built custom workflow agents and presented them at the hackathon. It completely shifted how I view software prototyping."</p>
+                <div class="testimonial-author">
+                  <h4>Riya Patel</h4>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Slide 3 -->
+            <div class="swiper-slide testimonial-slide">
+              <div class="testimonial-student-visual">
+                <svg width="120" height="120" viewBox="0 0 100 100" style="border-radius:50%; background-color:#FFF8F2; border:4px solid white; box-shadow:0 8px 24px rgba(0,0,0,0.05)">
+                  <circle cx="50" cy="40" r="22" fill="#FFC857"/>
+                  <path d="M15 85C15 65 30 60 50 60C70 60 85 65 85 85H15Z" fill="#222"/>
+                </svg>
+                <div class="testimonial-rating">
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+              <div class="testimonial-quote-box">
+                <i class="fa-solid fa-quote-left quote-icon"></i>
+                <p class="testimonial-text">"Public speaking was my biggest barrier. Through the Career & Communication Mastery track, I gained actionable presentation rubrics and overcame my group discussion anxiety. Best decision ever."</p>
+                <div class="testimonial-author">
+                  <h4>Amit Mehta</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing section-padding" id="pricing">
+      <div class="container">
+        <div class="section-header">
+          <div class="badge badge-green">Pricing Plans</div>
+          <h2>Invest in Your Career Roadmap</h2>
+          <p>Choose an individual learning track or unlock complete cohort pathway systems via our high-value bundle option.</p>
+        </div>
+        
+        <!-- Interactive billing toggle -->
+        <div class="pricing-toggle-container">
+          <span class="pricing-toggle-label active" id="label-individual">Individual Tracks</span>
+          <label class="pricing-switch">
+            <input type="checkbox" id="billing-toggle">
+            <span class="pricing-slider"></span>
+          </label>
+          <span class="pricing-toggle-label" id="label-bundle">All-in-One Bundle</span>
+          <span class="pricing-discount-badge">Save ~₹467</span>
+        </div>
+        
+        <div class="pricing-grid">
+          <div class="pricing-card individual-card popular">
+            <div class="pricing-card-badge">Single Track</div>
+            <h3>Individual Tracks</h3>
+            <p class="desc">Select any one path that matches your current learning objective. Perfect for specialized career preparation.</p>
+            <div class="pricing-price-box">
+              <div class="price"><span class="currency">₹</span>999<span class="period">/ Track onward</span></div>
+              <div style="font-size: 0.85rem; color: #888; margin-top: 0.25rem;">Flexible one-time pricing depending on path selection.</div>
+            </div>
+            <ul class="pricing-features-list">
+              <li><i class="fa-solid fa-circle-check"></i> Complete access to selected course modules</li>
+              <li><i class="fa-solid fa-circle-check"></i> Live Q&A sessions with mentors</li>
+              <li><i class="fa-solid fa-circle-check"></i> Weekly challenge project reviews</li>
+              <li><i class="fa-solid fa-circle-check"></i> Student Discord channel integration</li>
+              <li><i class="fa-solid fa-circle-check"></i> Track certificate on completion</li>
+            </ul>
+            <a href="#contact" class="btn btn-primary">Start Learning Now</a>
+          </div>
+          
+          <div class="pricing-card bundle-card bundle">
+            <div class="pricing-card-badge">Best Value Package</div>
+            <h3>All 4 Courses Bundle</h3>
+            <p class="desc">Unlock the absolute ultimate flight plan. Gain lifetime access to every single pathway, project cohort, and network.</p>
+            <div class="pricing-price-box">
+              <div class="price"><span class="currency">₹</span>4,499<span class="period">/ Lifetime</span></div>
+              <div class="pricing-savings">Save ₹467 (Individual total: ₹4,966)</div>
+            </div>
+            <ul class="pricing-features-list">
+              <li><i class="fa-solid fa-circle-check"></i> Lifetime access to all 4 learning paths</li>
+              <li><i class="fa-solid fa-circle-check"></i> Guaranteed referral eligibility for placements</li>
+              <li><i class="fa-solid fa-circle-check"></i> Direct 1:1 resume & portfolio builder help</li>
+              <li><i class="fa-solid fa-circle-check"></i> Unlimited rapid-ideation hackathon admissions</li>
+              <li><i class="fa-solid fa-circle-check"></i> Executive communication & speech training</li>
+              <li><i class="fa-solid fa-circle-check"></i> Access to all future path launches</li>
+            </ul>
+            <a href="#contact" class="btn btn-primary" style="background-color: var(--color-green); box-shadow: 0 12px 24px rgba(47, 191, 113, 0.2);">Unlock Everything</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Accordion Section -->
+    <section class="faq section-padding" id="faq">
+      <div class="container">
+        <div class="section-header">
+          <div class="badge badge-yellow">FAQ</div>
+          <h2>Got Questions? We Have Answers</h2>
+          <p>Everything you need to understand about the Nexora Future Launchpad cohort curriculum and referral program.</p>
+        </div>
+        
+        <div class="faq-list">
+          <div class="faq-item">
+            <button class="faq-question-btn">
+              <h4>Who is Nexora designed for?</h4>
+              <i class="fa-solid fa-chevron-down faq-icon-chevron"></i>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                Nexora is built for students, fresh graduates, and junior professionals looking to land placements. Whether you are transitioning to technology roles via our computer foundations track or sharpening public speaking skills, Nexora offers modular, project-first learning that standard textbooks skip.
+              </div>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <button class="faq-question-btn">
+              <h4>Are the sessions live or recorded?</h4>
+              <i class="fa-solid fa-chevron-down faq-icon-chevron"></i>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                Nexora cohorts use a hybrid model. Core logical topics are delivered via crisp pre-recorded case files, while weekly feedback, portfolio builds, hackathon feedback, and communication drills are entirely live on Zoom and Discord.
+              </div>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <button class="faq-question-btn">
+              <h4>How does the internship referral system work?</h4>
+              <i class="fa-solid fa-chevron-down faq-icon-chevron"></i>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                Upon completing a selected pathway and submitting your capstone build, our team reviews your portfolio. Students meeting standard metrics receive direct referrals and warm introductions to hiring managers at our 30+ partner companies.
+              </div>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <button class="faq-question-btn">
+              <h4>Can I switch between paths or upgrade to the bundle?</h4>
+              <i class="fa-solid fa-chevron-down faq-icon-chevron"></i>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                Yes, absolutely! You can start with any individual track (e.g. Career Essentials at ₹1,399). If you decide to upgrade to the full lifetime bundle later, you simply pay the difference. Our advisory panel can set this up instantly.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact section-padding" id="contact">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-info-block" data-aos="fade-right">
+            <div class="badge badge-green">Get In Touch</div>
+            <h2>Let's Plan Your Learning Strategy</h2>
+            <p style="color:#666; margin-bottom:var(--spacing-md);">Unsure which track fits your career milestone? Reach out to our admissions advisors for a free counseling session.</p>
+            
+            <div class="contact-card-wrapper">
+              <div class="contact-detail-card">
+                <div class="contact-icon-box"><i class="fa-solid fa-location-dot"></i></div>
+                <div class="contact-detail-text">
+                  <h4>Nexora Future Labs</h4>
+                  <p>Suite 405, Startup Hub, Outer Ring Road, Bangalore, India</p>
+                </div>
+              </div>
+              
+              <div class="contact-detail-card">
+                <div class="contact-icon-box"><i class="fa-solid fa-envelope"></i></div>
+                <div class="contact-detail-text">
+                  <h4>Email Admissions</h4>
+                  <p>nexoragen3@gmail.com</p>
+                </div>
+              </div>
+              
+              <div class="contact-detail-card">
+                <div class="contact-icon-box"><i class="fa-solid fa-phone"></i></div>
+                <div class="contact-detail-text">
+                  <h4>Call Advisory Desk</h4>
+                  <p>+91 94921 82286</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="contact-social-links">
+              <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+              <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+              <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+          
+          <div class="contact-form-wrapper" data-aos="fade-left">
+            <div class="contact-form-card">
+              <h3>Send admissions inquiry</h3>
+              <form id="contact-form">
+                <div class="form-grid-2">
+                  <div class="form-group">
+                    <label for="form-name">Full Name *</label>
+                    <input type="text" class="form-control" id="form-name" placeholder="John Doe" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="form-email">Email Address *</label>
+                    <input type="email" class="form-control" id="form-email" placeholder="john@example.com" required>
+                  </div>
+                </div>
+                
+                <div class="form-group" style="margin-bottom: 1.25rem;">
+                  <label for="form-track">Select Preferred Track</label>
+                  <select class="form-control" id="form-track" style="appearance: auto;">
+                    <option value="bundle">All 4 Courses Bundle (Recommended)</option>
+                    <option value="communication">Career & Communication Mastery</option>
+                    <option value="innovation">Innovation & Future Skills</option>
+                    <option value="essentials">Career Essentials</option>
+                    <option value="computer">Core Computer Foundations</option>
+                  </select>
+                </div>
+                
+                <div class="form-group">
+                  <label for="form-message">Tell us about your background *</label>
+                  <textarea class="form-control" id="form-message" placeholder="What are you currently studying or building? What is your primary career goal?" required></textarea>
+                </div>
+                
+                <div class="form-submit-row">
+                  <button type="submit" class="btn btn-primary">Submit Inquiry <i class="fa-solid fa-paper-plane"></i></button>
+                </div>
+                
+                <div id="form-feedback" class="form-feedback"></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <a href="#" class="logo">
+              <svg class="logo-icon" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="100" height="100" rx="24" fill="#FF6B35"/>
+                <path d="M30 70L50 30L70 70H60L50 50L40 70H30Z" fill="white"/>
+                <path d="M50 38L62 62H38L50 38Z" fill="#FFC857"/>
+              </svg>
+              <span>NEXORA</span>
+            </a>
+            <p>Nexora is a premium career launchpad bridging academic gaps through active Cohort learning. Launching tomorrow's innovators today.</p>
+          </div>
+          
+          <div class="footer-col">
+            <h4>Sitemap</h4>
+            <ul class="footer-links">
+              <li><a href="#about">About Philosophy</a></li>
+              <li><a href="#features">Why Choose Us</a></li>
+              <li><a href="#paths">Learning Paths</a></li>
+              <li><a href="#journey">Journey Pathway</a></li>
+            </ul>
+          </div>
+          
+          <div class="footer-col">
+            <h4>Student Support</h4>
+            <ul class="footer-links">
+              <li><a href="#pricing">Course Pricing</a></li>
+              <li><a href="#faq">Accordions FAQs</a></li>
+              <li><a href="#contact">Admissions Desk</a></li>
+            </ul>
+          </div>
+          
+          <div class="footer-col">
+            <h4>Admissions Alert</h4>
+            <div class="footer-newsletter">
+              <p>Subscribe to receive cohort notifications, workshop schedules, and placement updates.</p>
+              <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Subscribed to Nexora newsletter!'); this.reset();">
+                <input type="email" class="newsletter-input" placeholder="Your best email..." required>
+                <button type="submit" class="newsletter-submit-btn" aria-label="Subscribe"><i class="fa-solid fa-arrow-right"></i></button>
+              </form>
+            </div>
+          </div>
+        </div>
+        
+        <div class="footer-bottom">
+          <p>&copy; 2026 Nexora Future Labs. All Rights Reserved. Empowering Dreams. Building Tomorrow.</p>
+          <div class="footer-bottom-links">
+            <a href="#">Terms of Service</a>
+            <a href="#">Refund Policy</a>
+            <a href="#">Contact Support</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Drawer Slide-out System for Path details (Hidden by default) -->
+    <div class="path-drawer" id="path-drawer">
+      <div class="drawer-header">
+        <span style="font-family:'Sora', sans-serif; font-weight:800; font-size:1.1rem; color:var(--color-orange);">PATHWAY SYLLABUS</span>
+        <div class="drawer-close-btn"><i class="fa-solid fa-xmark"></i></div>
+      </div>
+      
+      <div class="drawer-body">
+        <h3 id="drawer-title">Path Title</h3>
+        <p class="drawer-lead" id="drawer-lead">Path description details go here...</p>
+        
+        <div class="drawer-meta-grid">
+          <div class="drawer-meta-card">
+            <h5>Duration</h5>
+            <p id="drawer-duration">6 Weeks</p>
+          </div>
+          <div class="drawer-meta-card">
+            <h5>Modules</h5>
+            <p id="drawer-modules-count">4 Modules</p>
+          </div>
+        </div>
+        
+        <h4 class="drawer-section-title">Core Skills Gained</h4>
+        <div class="drawer-skills-tags" id="drawer-skills-container">
+          <!-- tags populate here -->
+        </div>
+        
+        <h4 class="drawer-section-title">Weekly Syllabus Outline</h4>
+        <div class="drawer-modules-list" id="drawer-modules-container">
+          <!-- modules populate here -->
+        </div>
+        
+        <h4 class="drawer-section-title">Pathway Benefits</h4>
+        <ul class="pricing-features-list" id="drawer-benefits-list">
+          <!-- benefits list -->
+        </ul>
+      </div>
+      
+      <div class="drawer-footer">
+        <div class="drawer-price">
+          <span class="original" id="drawer-original-price">₹1,999</span>
+          <span class="current" id="drawer-current-price">₹999</span>
+        </div>
+        <a href="#contact" class="btn btn-primary" onclick="closePathDrawer()">Enroll Track</a>
+      </div>
+    </div>
+    <!-- Feature Detail Overlay Modal (Complete Career Transformation blur popup) -->
+    <div class="feature-modal-overlay" id="feature-modal-overlay">
+      <div class="feature-modal-card glass">
+        <div class="feature-modal-close-btn" id="feature-modal-close-btn"><i class="fa-solid fa-xmark"></i></div>
+        <div class="feature-modal-body">
+          <div class="feature-modal-icon-container" id="feature-modal-icon"></div>
+          <h3 id="feature-modal-title">Feature Title</h3>
+          <p id="feature-modal-desc">Feature description detail contents go here...</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Floating Chatbot Widget -->
+    <div class="chatbot-widget-container">
+      <!-- Toggle trigger bubble -->
+      <button class="chatbot-toggle-bubble" id="chatbot-toggle-bubble" aria-label="Open Chat Advisor">
+        <i class="fa-solid fa-comments"></i>
+        <span class="chatbot-badge">1</span>
+      </button>
+
+      <!-- Chat window panel -->
+      <div class="chatbot-window glass" id="chatbot-window">
+        <div class="chatbot-header">
+          <div class="chatbot-profile">
+            <div class="chatbot-avatar">
+              <svg viewBox="0 0 100 100" width="36" height="36" style="border-radius:50%; background-color: var(--color-white); overflow: hidden; display: block;">
+                <rect width="100" height="100" fill="var(--color-orange)"/>
+                <path d="M30 70L50 30L70 70H60L50 50L40 70H30Z" fill="white"/>
+              </svg>
+              <span class="avatar-status-dot"></span>
+            </div>
+            <div class="chatbot-profile-text">
+              <h6>NEXORA AI Advisor</h6>
+              <p>Online | Cohort Specialist</p>
+            </div>
+          </div>
+          <button class="chatbot-close-btn" id="chatbot-close-btn-widget"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+
+        <div class="chatbot-messages-list" id="chatbot-messages-list">
+          <div class="chat-message bot">
+            <p>Welcome to **Nexora - Future Launchpad**! 🚀 I am NEXORA, your personal Admissions Advisor.</p>
+          </div>
+          <div class="chat-message bot">
+            <p>Are you looking to join a cohort or do you want to learn about our placement metrics, pricing, or mentors?</p>
+          </div>
+        </div>
+
+        <form class="chatbot-input-row" id="chatbot-input-form">
+          <input type="text" class="chatbot-input-field" id="chatbot-input-field" placeholder="Ask NEXORA anything..." autocomplete="off" required>
+          <button type="submit" class="chatbot-send-btn" aria-label="Send Message"><i class="fa-solid fa-paper-plane"></i></button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Back to Top Trigger Button -->
+    <button class="back-to-top" aria-label="Back to Top"><i class="fa-solid fa-arrow-up"></i></button>
+
+    <!-- Libraries Integrations -->
+    <!-- GSAP Core & ScrollTrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <!-- GSAP MotionPathPlugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/MotionPathPlugin.min.js"></script>
+    
+    <!-- Swiper.js Slider Script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    
+    <!-- AOS (Animate on Scroll) Script -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    
+    <!-- Custom JavaScript Logic -->
+    <script src="js/main.js"></script>
+</body>
+</html>
